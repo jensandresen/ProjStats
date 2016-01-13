@@ -29,5 +29,14 @@
     <script src="~/js/bootstrap.min.js"></script>
 
     @RenderSection("Scripts", required: false)
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        setTimeout(function () {
+            window.location.reload();
+        }, 60 * 1000);
+    });
+</script>
+
 </body>
 </html>
