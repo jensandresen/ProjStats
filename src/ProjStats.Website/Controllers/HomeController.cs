@@ -8,5 +8,11 @@ namespace ProjStats.Website.Controllers
          {
              return View();
          }
+
+        [Route("loop")]
+        public ActionResult Loop()
+        {
+            return View();
+        }
     }
 }
