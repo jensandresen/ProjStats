@@ -18,15 +18,29 @@
             margin: 0;
         }
 
-        * {
+        html, body, img {
             -webkit-filter: invert(100%);
-    filter: invert(100%);
+            filter: invert(100%);
         }
+
+        img {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            max-width: 100%;
+            max-height: 100%;
+            margin: auto;
+            overflow: auto;
+            width: 100%;
+        }
+
     </style>
 </head>
 <body>
 
-    <img src="https://docs.google.com/spreadsheets/d/1ae09oaQRlJMyZBhQrBwurDoqw9Cb3LVi3xMV3kT6i3Y/pubchart?oid=1813347207&format=image" style="width: 100%; max-height: 100%;" />
+    <img src="https://docs.google.com/spreadsheets/d/1ae09oaQRlJMyZBhQrBwurDoqw9Cb3LVi3xMV3kT6i3Y/pubchart?oid=1813347207&format=image"  />
 
 </body>
 </html>
